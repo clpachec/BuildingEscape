@@ -38,4 +38,10 @@ private:
 	void SetupInputComponent();
 
 	const FHitResult GetFirstPhysicBodyInReach();
+
+	FVector GetReachLineStart();
+	FVector GetReachLineEnd();
+
+	
+
 };
