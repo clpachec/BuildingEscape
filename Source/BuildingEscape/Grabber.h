@@ -26,4 +26,8 @@ public:
 private:
 	float Reach = 100;
 	
+	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+	UInputComponent* InputComponent = nullptr;
+
+	void Grab();
 };
